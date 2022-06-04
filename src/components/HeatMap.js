@@ -22,7 +22,7 @@ export default function HeatMap({ year }) {
 				<WeekDays />
 				<CalenderDays year={year} />
 			</Wrapper>
-			<Months />
+			<Months year={year}/>
 		</MapContainer>
 	);
 }
