@@ -1,4 +1,3 @@
-import './App.css';
 import HeatMap from './components/HeatMap';
 import styled from "styled-components";
 
