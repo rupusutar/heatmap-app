@@ -1,7 +1,8 @@
 import styled from "styled-components";
+import { weekDays, dayBoxHeight, dayBoxMargin } from "../util/util";
 
 const WeekdaysContainer = styled.div`
-	display: inline-flex; /* to make cells place at equal distance horizontally*/
+	display: inline-flex;
 	flex-direction: column;
 	width: 30px;
   box-sizing: border-box;
@@ -9,15 +10,13 @@ const WeekdaysContainer = styled.div`
 
 const WeekDay = styled.div`
   font-size: 10px;
-  height: 11px;
-  margin: 2px;
+  height: ${dayBoxHeight}px;
+  margin: ${dayBoxMargin}px;
   vertical-align: middle;
   box-sizing: border-box;
 `;
 
 function WeekDays() {
-	const weekDays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-
 	return (
 		<WeekdaysContainer>
 			{weekDays.map((weekDay, index) => (
