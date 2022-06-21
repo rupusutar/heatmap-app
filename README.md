@@ -1,6 +1,6 @@
-# Onto take home test App
+# Transaction heatmap
 
-This is finacial transaction app which presents transaction heatmap for entire year based on local transactions file for year 2019.
+This is github like heatmap app which presents transaction heatmap for entire year based on local transactions file for year 2019.
 The “redder” it is the higher the failed transaction by accumulated value for that day and the
 “greener” it is the higher the successful transaction by accumulated value for that day.
 
